@@ -29,5 +29,13 @@
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliac7/hellenic-holidays.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliac7/hellenic-holidays/issues"
+  },
+  "homepage": "https://github.com/eliac7/hellenic-holidays#readme"
 }
