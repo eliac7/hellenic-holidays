@@ -5,12 +5,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "clean": "del-cli dist \"tests/**/*.js\" \"tests/**/*.js.map\"",
     "build": "npm run clean && tsc",
     "test": "jest --config jest.config.ts",
     "test:watch": "jest --config jest.config.ts --watch",
     "test:coverage": "jest --config jest.config.ts --coverage",
-    "prepare": "npm run build",
-    "clean": "del-cli dist \"tests/**/*.js\" \"tests/**/*.js.map\""
+    "prepare": "npm run build"
   },
   "keywords": [
     "greece",
