@@ -53,3 +53,7 @@ logs
 
 # coverage
 coverage/
+
+# Compiled tests
+tests/**/*.js
+tests/**/*.js.map
